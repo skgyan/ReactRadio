@@ -28,6 +28,12 @@ function App() {
             checked={platformValue === "linux"}
             {...plaftormInputProps}
           />
+          Chrome
+          <input
+            value="chrome"
+            checked={platformValue === "chrome"}
+            {...plaftormInputProps}
+          />
         </fieldset>
         <fieldset>
           Male
